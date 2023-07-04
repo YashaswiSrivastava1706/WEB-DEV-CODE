@@ -1,0 +1,85 @@
+
+table {
+  width:100%;
+}
+
+.inputs {
+    border-radius: 0.4rem;
+    width:60%; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    margin-left:30px;
+  }
+
+
+
+tr:nth-child(odd)
+{background-color: #dbeb80;}
+
+th {
+  background-color: #9eef259a;
+  color: white;
+}
+
+.float-container {
+    border: 3px solid white;
+    padding: 20px;
+}
+table,th, td {
+    border: 2px solid #9eef259a;
+  border-collapse: collapse;
+}
+.float-child1 {
+    width: 40%;
+    float: left;
+    padding: 20px;
+    border: 2px solid white;
+} 
+.vertical {
+    border-left: 6px solid #21c6a8;
+    height: 400px;
+    position:absolute;
+    left: 45%;
+    padding-left: 20px;
+}
+label {
+
+
+
+  margin-left: 10px;
+  text-align: left;
+  clear: both;
+ }
+ 
+ input {
+ 
+  border: 1px solid #000;
+  margin-top: 10px;
+  float: right;
+ }
+.float-child2 {
+    width:40%;
+    float: right;
+    margin-right:8%;
+    overflow: auto; 
+    height: 500px ; 
+    border: 2px solid white;
+} 
+
+.headr
+{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color:white;
+}
+
+footer{
+    padding: 10px 0;
+    color:white;
+    bottom: 0;
+    width: 100%;
+    position:fixed;
+    text-align: center;
+    justify-content: center;
+}

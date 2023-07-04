@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registation Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar" style="background-color: #21c6a8; height: 40px;">
+      
+        
+            <p class="headr">Student Enrollment Form</p>
+    
+        
+    </nav>
+    <!-- <div class="navbar" style="background-color: #21c6a8;">
+        <h1>Student enrollment for1m</h1>
+    </div> -->
+
+    <div class="float-child1">
+        <!-- <div class="green">Float Column 1</div> -->
+      
+    <form name="studentForm" style="width:80%">
+      <label for="name">Name:</label>
+      <input type="text" class="inputs" id="name" name="name" placeholder="Enter name" required/>
+      <br /><br />
+      <label for="email">Email:</label>
+      <input type="email" class="inputs" id="email" name="email" placeholder="Enter email" pattern="^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$" required/>
+      <br /><br />
+      <label for="website">Website:</label>
+      <input type="text" class="inputs" id="website" name="website" placeholder="Enter website" required/>
+      <br /><br />
+      <label for="imageLink">Image Link:</label>
+      <input type="text" class="inputs" id="imageLink" name="imageLink" placeholder="Enter image link" required/>
+      <br /><br />
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="Male" style="margin-left:20%;float:none;"required/><b> Male</b>
+      <br>
+      <input type="radio" id="female" name="gender" value="Female" style="margin-left: 39%;float:none;" required/><b> Female</b>
+      
+      <br /><br />
+      <label>Skills:</label>
+      <input type="checkbox" id="html" name="html" value="HTML" style="margin-left: 24%;float:none;"/>
+      <b>HTML</b>
+      <input type="checkbox" id="css" name="css" value="CSS" style="float:none;"/>
+      <b>CSS</b>
+      <input type="checkbox" id="java" name="java" value="Java" style="float:none;"/>
+      <b>JAVA</b>
+      <br /><br />
+      <input type="button" class="btn btn-primary" value="Enroll Student" style="float:none;" onclick="validateForm()" >
+      &nbsp; &nbsp;
+      <button type="reset" class="btn btn-danger">Clear</button>
+    </form>
+    <br /><br />
+</div>
+    
+<div class = "vertical"></div>
+
+
+
+    <div class="float-child2">
+        <center><h2>Enrolled Student</h2></center>
+
+        <!-- <div class="blue">Float Column 2</div> -->
+  <table id="studentTable"  >
+    <tr>
+      <th>Details</th>
+      <th>Image</th>
+    </tr>
+</table>
+
+
+</div>
+<br>
+<br>
+<br>
+<footer style="background-color: #21c6a8; height: 30px;">
+  <p>Copyright 2020 2021 by Fresher Training</p>
+</footer>
+</body>
+</html>
